@@ -1,0 +1,264 @@
+* {
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    overflow-x: hidden;
+}
+.container {
+    width: 100%;
+    background-color: whitesmoke;
+    position: fixed;
+    z-index: 1;
+}
+
+.logo {
+    font-size: 30px;
+    color: rgb(9, 3, 79);
+    margin-left: 190px;
+    padding: 15px;
+
+}
+
+.topnav {
+    /* float: right; */
+    overflow: hidden;
+    margin-left: 600px;
+    margin-top: -80px;
+    list-style-type: lower-roman;
+    /* font-size: large; */
+    position: fixed;
+    transition: 0.4s;
+}
+
+.topnav li {
+    display: inline-block;
+    margin: 25px 20px;
+    padding-top: 13px;
+}
+
+.topnav a {
+    color: black;
+    text-decoration: none;
+    font-size: small;
+    text-transform: uppercase;
+}
+.buildingSection {
+    background-image: url(https://static.wixstatic.com/media/5bfb6f_a463284fd84145f292a32dc0f0e0cc31.jpg/v1/fill/w_980,h_801,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5bfb6f_a463284fd84145f292a32dc0f0e0cc31.jpg);
+    margin-left: 0;
+    margin: 0;
+    width: 1600px;
+    height: 700px;
+    margin-bottom: 70px;
+}
+
+.leftchild {
+    background-color: rgba(51, 51, 154, 0.84);
+    opacity: 1.8;
+    width: 650px;
+    height: 700px;
+    background-position: fixed;
+}
+
+.line1 {
+    position: relative;
+    font-size: 60px;
+    color: white;
+    top: 250px;
+    right: -200px;
+    font-weight: bold;
+}
+
+.line2 {
+    position: relative;
+    font-size: 60px;
+    color: white;
+    top: 250px;
+    right: -200px;
+}
+
+.line3 {
+    position: relative;
+    font-size: 22px;
+    color: white;
+    top: 240px;
+    right: -200px;
+}
+.whiteSection{
+
+}
+.secondchild{
+    background-color: blue;
+    opacity: 0.3;
+    margin: 0;  
+    margin-left: -10px 50px;
+    width: 650px;
+    height: 600px;
+    background-position: fixed;
+    /* font-size: 70px; */
+}
+.childright {
+    width: 1400px;
+    height: 50px;
+    list-style-type: square;
+    font-size: 25px;
+    color: rgb(50, 50, 128);
+}
+.practice {
+    margin: 0;
+    position: relative;
+    font-size: 55px;
+    color: white;
+    top: 50px;
+    right: -210px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.area {
+    position: relative;
+    font-weight: lighter;
+    font-size: 40px;
+    color: white;
+    top:30px;
+    right: -210px;
+}
+
+.childright ul {
+    position: relative;
+    right: -700px;
+    top: -550px;
+}
+
+.left {
+    position: relative;
+    right: 100px;
+    font-size: 25px;
+
+}
+
+.right {
+    position: relative;
+    right: -300px;
+    bottom: 360px;
+    font-size: 25px;
+
+}
+
+ul li {
+    list-style-type: square;
+    padding: 20px;
+    margin-bottom: 10px;
+    list-style-position: inside;
+}
+
+ul p {
+    font-size: large;
+}
+
+
+
+
+
+.darkblue {
+    background-color: rgba(51, 51, 154, 0.84);
+    width: 1530px;
+    height: 580px;
+    text-align: center;
+    margin-top: -120px;
+}
+
+.darkblue h1 {
+    top: -110px;
+    color: white;
+}
+
+div .ps {
+    color: white;
+    margin: 70px 60px;
+    font-size: 20px;
+}
+.bys {
+    position: relative;
+    background-image: url(https://static.wixstatic.com/media/5bfb6f_bb013bf1966340ceb9a576d68aa42273.jpg/v1/fill/w_980,h_771,al_c,q_85,usm_0.66_1.00_0.01,enc_auto/5bfb6f_bb013bf1966340ceb9a576d68aa42273.jpg);
+    background-color: yellow;
+    opacity: 0.7;
+    width: 1600px;
+    height: 650px;
+}
+
+
+
+.fifthsection{
+    background-color: #8d85ad;
+    margin-top: -6px;
+    width: 1550px;
+    height: 718px;
+}
+
+.fifthsection h2{
+    position: relative;
+    top: 100px;
+    font-family: 'Raleway', sans-serif;
+    color:#39566e;
+    font-weight: 100;
+    margin-left: 550px;
+    font-size: 40px;
+}
+
+.first{
+    position: absolute;
+    display: inline;
+    margin-top: 170px;
+    left: 350px;
+}
+
+.second{
+    position: absolute;
+    display: inline;
+    margin-top: 170px;
+    left: 650px;
+}
+
+.third{
+    position: absolute;
+    display: inline;
+    margin-top: 170px;
+    left: 950px;
+}
+
+hr{
+    width: 190px;
+    border: solid;
+    border-color: #21476a;
+    border-width: 1px;
+}
+
+.name{
+    font-family: 'Open sans',sans-serif;
+    color:#00305B  ;
+    font-size: 18px;
+    text-align: center;
+    margin: 15px;
+}
+
+.partner {
+    font-family: 'Open sans',sans-serif;
+    color:#00305B  ;
+    font-size: 14px;
+    text-align: center;
+    margin: 15px;
+}
+
+.contact{
+    font-family: 'Open sans',sans-serif;
+    color:#00305B  ;
+    font-size: 17px;
+    text-align: center;
+    margin: 25px;
+}
+
